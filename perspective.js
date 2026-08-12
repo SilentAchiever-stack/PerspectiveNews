@@ -1,8 +1,4 @@
-/* ============================================
-   SARAH'S PERSPECTIVE NEWS — Homepage JS
-   ============================================ */
 
-// ─── Slide data & state ───────────────────────
 const slides     = document.querySelectorAll('.slide');
 const dotsWrap   = document.getElementById('slideDots');
 const leftBtn    = document.querySelector('.slider-btn.left');
@@ -69,7 +65,7 @@ if (liveDateEl) {
 // ─── Typewriter ───────────────────────────────
 const typeEl = document.getElementById('typewriter-text');
 const segments = [
-  "Welcome to Sarah's Perspective News — your go-to source for insightful coverage of women's rights.",
+  "Welcome to Sarah's Perspective News, your go-to source for insightful coverage of women's rights.",
   " We shine a light on child marriage, domestic violence, FGM, and sexual assault.",
   " Every story told is a step toward justice."
 ];
